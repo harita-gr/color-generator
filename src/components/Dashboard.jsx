@@ -28,7 +28,7 @@ const Dashboard = () => {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            value=""
+            value={color}
             placeholder="#2c2e3b"
             className={error ? "error" : null}
             onChange={(e) => setColor(e.target.value)}
